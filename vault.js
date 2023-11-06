@@ -7,9 +7,12 @@
 //variable 3 will equal 39, 40 - 1
 //create alert() 
 
+//I created a strg variable with the sentence to not type it out later
 const strg = 'You have received this message because you have been chosen to open an important vault. Here is the secret combination:';
 const ten = 5 + 5;
 const forty = 4 * 10;
 const thrtyNne = 40 - 1;
 
-alert(strg + " " + ten + "-" + forty + '-' + thrtyNne);
+//alert(strg + " " + ten + "-" + forty + '-' + thrtyNne);
+
+alert(`${strg} ${ten}-${forty}-${thrtyNne}`);
